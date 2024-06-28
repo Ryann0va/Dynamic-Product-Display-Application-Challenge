@@ -1,0 +1,31 @@
+//99350821
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color:black
+}
+
+#app {
+    text-align: center;
+    border: 1px;
+    border-radius: 8px;
+    background: white;
+}
+
+#loading, #error {
+    margin: 20px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    margin: 10px;
+    border: none;
+    background-color:green;
+    color:white;
+    border-radius: 4px;
+}
