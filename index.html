@@ -1,0 +1,27 @@
+//U99350821
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Product Display Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="loading">Loading...</div>
+        <div id="error" class="hidden">Failed to load products. Please try again.</div>
+        <div id="product-container" class="hidden">
+            <button id="prev-btn">Previous</button>
+            <div id="product-display">
+                <img id="product-image" src="" alt="Product Image">
+                <h2 id="product-name"></h2>
+                <p id="product-price"></p>
+                <p id="product-description"></p>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+    <script src="example.js"></script>
+</body>
+</html>
